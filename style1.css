@@ -1,0 +1,155 @@
+*{
+   background-color: #95CFE6;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    color: #293940;
+    display: flex;
+    justify-content: center;
+}  
+.button {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 120px;
+    height: 60px;
+    background-color: #F3FFFC;
+    border: solid;
+   border-radius: 100px;
+   
+}
+img {
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+
+ #questions{
+     margin-top: 150px;
+ }
+ select{
+     background-color: #F3FFFC;
+     width: 300px;
+     height: 40px;
+     font-size: 24px;
+ }
+ 
+#info {
+     display:flex;
+     justify-content:center;
+     
+ }
+ 
+ #return {
+     display:flex;
+     justify-content:center;
+ }
+ nav {
+     display:flex;
+     justify-content: flex-start;
+     justify-content: space-around;
+     
+ }
+ 
+  #heading{
+      display:flex;
+  justify-content:flex-start;
+      
+  }
+ #about {
+    display:flex;
+     justify-content:center;
+    }
+    
+    
+    #violin{
+        object-fit:cover;
+        width:200px;
+        height:200px;
+    }
+    
+    .violin1{
+        display:flex;
+        flex-direction:row;
+    }
+    
+     .viola2{
+        display:flex;
+        flex-direction:row;
+    }
+ 
+ 
+    #viola{
+        object-fit:cover;
+        width:200px;
+        height:200px;
+    }
+    
+     .cello1{
+        display:flex;
+        flex-direction:row;
+    }
+ 
+ 
+    #cello{
+        object-fit:cover;
+        width:200px;
+        height:200px;
+    }
+    
+    
+     .bass1{
+        display:flex;
+        flex-direction:row;
+    }
+ 
+ 
+    #bass{
+        object-fit:cover;
+        width:200px;
+        height:200px;
+    }
+    
+    #well {
+       
+        text-align:center;
+    }
+    
+    
+    .good {
+        text-align:center;
+        border-style: solid;
+        margin-left: 400px;
+        margin-right:400px;
+       margin-top:30px;
+   
+        border-radius:20px;
+    background-color:#F3FFFC;
+    }
+    
+    h3{
+       padding:2px;
+    background-color:#F3FFFC;
+    }
+    
+    .answer{
+        margin-bottom:200px;
+          margin-left: 650px;
+        margin-right:400px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

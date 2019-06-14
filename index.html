@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Instrument Music Quiz</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="./style1.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+    <nav>
+
+         <h1 id="heading">Its Time for the...Music Quiz!</h1>
+       <a href="about us.html"><button id = "about" class="button">Our Mission</button></a>
+
+    </nav>
+
+        <article class = "topic">
+        <p class = "intro"> An ultimate skill test to see your musical knowledge!<br>
+        *note: unless otherwise noted, when Saxophone is written, the Alto Saxophone is being reffered to.</p>
+        </article>
+        <article class = "description">
+            <!--input info-->
+        </article>
+
+
+        <p>Question 1:</p>
+        <img src="https://www.thomann.de/pics/bdb/389769/11131665_800.jpg" alt="instrument" />
+         <br>
+            <h1>What instrument is this?</h1>
+        <select id = "questionOne" onclick="checkOne()">
+            <option value="blank" class="answer_choice" > </option>
+            <option class= "answer_choice" value="bassoon" id="bassoon1" onclick="checkOne()">Bassoon</option>
+        <option class= "answer_choice" value="clarinet" onclick="checkOne()">Clarinet</option>
+            <option class = "answer_choice" value="flute" onclick="checkOne()">Flute</option>
+            <option class = "answer_choice" value="oboe" onclick="checkOne()">Oboe</option>
+        </select>
+        <br>
+
+<br>
+<br>
+        <p>Question 2:</p>
+        <img src="http://www.interlude.hk/front/wp-content/uploads/2017/09/Violin-Viola1.jpg" alt="viola and violin" />
+        <br>
+        <h1>Which instrument is bigger?</h1>
+        <select class = "questionTwo">
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "viola" value="viola">Viola</option>
+  <option class = "violin" value="violin">Violin</option>
+</select>
+
+<br>
+<br>
+
+    <p>Question 3:</p>   <!--Music question-->
+    <h1>What Instrument is this?</h1>
+    <br>
+<button onclick="celloSound()" type="button"> Play Audio</button>
+<audio id="myCello">
+  <source src="./cello_As3_15_forte_arco-normal.ogg" type="audio/ogg">
+  <source src="./cello_As3_15_forte_arco-normal.mp3" type="audio/mpeg">
+</audio>
+<br>
+        <select class = "questionThree">
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Violin" value="Violin">Violin</option>
+  <option class = "Viola" value="Viola">Viola</option>
+  <option class = "Cello" value="Cello">Cello</option>
+  <option class = "Bass" value="Bass">Bass</option>
+</select>
+<br>
+<br>
+        <p>Question 4:</p>
+        <h1>Which one of these saxophones has the lowest range of notes?</h1>
+        <br>
+        <select class = "questionFour">
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "soprano sax" value="soprano sax">Soprano Saxophone</option>
+  <option class = "alto sax" value="alto sax">Alto Saxophone</option>
+  <option class = "tenor sax" value="tenor sax">Tenor Saxphone</option>
+  <option class = "bari sax" value="bari sax">Bari (Baritone) Saxphone</option>
+</select>
+<br>
+<br>
+
+        <p>Question 5:</p> <!--Music Question-->
+       <h1>What instrument is this?</h1>
+          <br>
+       <button onclick="saxSound()" type="button"> Play Audio</button>
+<audio id="mySax">
+  <source src="./saxophone_D4_15_forte_normal.ogg" type="audio/ogg">
+  <source src="./saxophone_D4_15_forte_normal.mp3" type="audio/mpeg">
+</audio>
+<br>
+    <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Trombone" value="Trombone">Trombone</option>
+  <option class = "Saxophone" value="Saxophone">Saxophone</option>
+  <option class = "Flute" value="Flute">Flute</option>
+</select>
+<br>
+<br>
+
+<p>Question 6:</p>
+    <br>
+    <img src="http://www.the-clarinets.net/images/klarinettenfamilie_de.jpg" alt="" />
+    <p>Which one of these clarinets (in the picture going from left to right) <br> is the most well known?</p>
+    <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "1" value="1">1</option>
+  <option class = "2" value="2">2</option>
+  <option class = "3" value="3">3</option>
+  <option class = "4" value="4">4</option>
+  <option class = "5" value="5">5</option>
+</select>
+<br>
+<br>
+
+<p>Question 7:</p>
+<h1>Which type of instrument is usually louder?</h1>
+        <br>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Woodwind" value="Woodwind">Woodwind</option>
+  <option class = "Brass" value="Brass">Brass</option>
+</select>
+<br>
+<br>
+        <p>Question 8:</p> <!--Music question-->
+        <br>
+        <h1>What instrument is this?</h1>
+        <button onclick="clarinetSound()" type="button"> Play Audio</button>
+<audio id="myClarinet">
+  <source src="./clarinet_C4_15_forte_normal.ogg" type="audio/ogg">
+  <source src="./clarinet_C4_15_forte_normal.mp3" type="audio/mpeg">
+</audio>
+<br>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Saxophone" value="Saxophone">Saxophone</option>
+  <option class = "Clarinet" value="Clarinet">Clarinet</option>
+  <option class = "Flute" value="Flute">Flute</option>
+  <option class = "Trumpet" value="Trumpet">Oboe</option>
+</select>
+  <br>
+<br>
+
+        <p>Question 9:</p>
+        <img src="https://www.vsl.co.at/images/EmbNav_Instruments_b_720x300.jpg" alt="music" />
+        <br>
+        <h1>Which of these are NOT percussion?</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Tamborine" value="Tamborine">Tamborine</option>
+  <option class = "Snare" value="Snare">Snare</option>
+  <option class = "Quad" value="Quad">Quad</option>
+  <option class = "Trombone" value="Trombone">Trombone</option>
+</select>
+  <br>
+<br>
+
+        <p>Question 10:</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczpyEEdnciy0H64HohOvfsY06nSYo4Z1HUiyi1LT5SirkVlZ7" alt="brass" />
+        <br>
+        <h1>Which one of these instruments is also known as a marching tuba?</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Contrabass" value = "Contrabass">ContraBass</option>
+  <option class = "Contra" value="Contra">Contra</option>
+  <option class = "Tuba" value="Tuba">Tuba</option>
+  <option class = "Euphonium" value="Euphonium">Euphonium</option>
+</select>
+<br>
+<br>
+
+        <p>Question 11:</p> <!--music question-->
+        <img src="https://www.orsymphony.org/globalassets/hero-images/instruments-of-the-orchestra/orchestra-4_pc-leah-nash_1900x600.jpg" alt="" />
+        <br>
+        <h1>Violin or Bass?</h1>
+         <button onclick="violinSound()" type="button"> Play Audio</button>
+<audio id="myViolin">
+  <source src="./violin_B4_15_forte_arco-normal.ogg" type="audio/ogg">
+  <source src="./violin_B4_15_forte_arco-normal.mp3" type="audio/mpeg">
+</audio>
+<br>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Violin" value="Violin">Violin</option>
+  <option class = "Bass" value="Bass">Bass</option>
+</select>
+  <br>
+<br>
+        <p>Question 12:</p>
+        <img src="https://www.vsl.co.at/images/EmbNav_Saxophones_720x300.jpg" alt="saxophone" />
+        <br>
+        <h1>Which one of these can be used for jazz?</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "Oboe" value= "Oboe">Oboe</option>
+  <option class = "Clarinet" value="Clarinet">Clarinet</option>
+  <option cla""ss =Quad  value="Quad">Quad</option>
+  <option class = "bassClarinet" value="BassClarinet">Bass Clarinet</option>
+</select>
+  <br>
+<br>
+        <p>Question 13:</p>
+        <img src="data:image/jpeg;base64,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" alt=""winds />
+        <br>
+        <h1>Which instrument is bigger, clarinet, or tenor sax?</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "tenorSax" value="tenorSax">Tenor Sax</option>
+  <option class = "clarinet" value="clarinet">Clarinet</option>
+</select>
+  <br>
+  <br>
+
+        <p>Question 14:</p>
+        <img src="https://wpmedia.smartmusic.com/wp-content/uploads/2016/05/SM_Sizing-String-Instruments_blog.png" alt="strings" />
+        <br>
+        <h1>True or False: There are String instruments in band.</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "True" value="True">True</option>
+  <option class = "False" value="False">False</option>
+</select>
+  <br>
+  <br>
+
+        <p>Question 15:</p>
+        <img src="https://cdn.brainpop.com/artsandmusic/makingmusic/brassinstruments/screenshot2.png" alt="" />
+ <br>
+        <h1>True or False: Saxophone is a brass instrument.</h1>
+        <select>
+  <option value="blank" class="answer_choice" > </option>
+  <option class = "True" value="True">True</option>
+  <option class = "False" value="False">False</option>
+</select>
+  <br>
+  <br>
+
+
+
+  <button class = "results"><a href="./results.html">Get Results</a></button>
+
+<script src="./index.js"></script>
+    </body>
+</html>

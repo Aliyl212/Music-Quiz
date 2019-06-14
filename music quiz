@@ -1,0 +1,35 @@
+{
+  "projectId": "1EtFuDHX0mMSSRyM4fvIwfLDsEJwwqr4c",
+  "htmlFiles": [
+    {
+      "fileId": "1mdCpAgdNMj8bjf-8gtozp_cPrC2BMl5O",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "1EtFuDHX0mMSSRyM4fvIwfLDsEJwwqr4c"
+    },
+    {
+      "fileId": "1VUjS1nGHP3FC9AfItvSVC0y7w-1LhsEy",
+      "contentType": "text/html",
+      "name": "about us.html",
+      "path": "1EtFuDHX0mMSSRyM4fvIwfLDsEJwwqr4c",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1R73UkXfESV9sTmoeYJD2uWdL7BvgEgpC",
+      "contentType": "text/html",
+      "name": "info.html",
+      "path": "1EtFuDHX0mMSSRyM4fvIwfLDsEJwwqr4c",
+      "description": "This HTML file has been created with Editey"
+    }
+  ],
+  "cssFiles": [],
+  "javascriptFiles": [
+    {
+      "fileId": "1I4LIC1nejfe1jbHNahFiSuSjIbucXP6Z",
+      "contentType": "text/javascript",
+      "name": "index.js",
+      "path": "1EtFuDHX0mMSSRyM4fvIwfLDsEJwwqr4c",
+      "description": "This JAVASCRIPT file has been created with Editey"
+    }
+  ]
+}
